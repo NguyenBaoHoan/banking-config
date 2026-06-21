@@ -1,0 +1,17 @@
+server:
+  port: 8081
+
+spring:
+  grpc:
+    client:
+      channels:
+        customer-service:
+          address: localhost:9092
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    tryItOutEnabled: true

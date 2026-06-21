@@ -1,0 +1,15 @@
+server:
+  port: 8082
+
+spring:
+  grpc:
+    server:
+      port: 9092
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+    tryItOutEnabled: true

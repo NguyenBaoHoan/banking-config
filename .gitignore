@@ -1,0 +1,33 @@
+# Build output
+target/
+
+# Logs and runtime dumps
+*.log
+*.err
+*.out
+hs_err_pid*
+replay_pid*
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# IDE and editor files
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
