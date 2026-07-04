@@ -1,10 +1,5 @@
 server:
-  port: 8082
-
-spring:
-  grpc:
-    server:
-      port: 9092
+  port: 8083
 
 springdoc:
   api-docs:
